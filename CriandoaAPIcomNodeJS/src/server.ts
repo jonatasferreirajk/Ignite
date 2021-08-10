@@ -4,7 +4,7 @@ import swaggerUi from "swagger-ui-express";
 
 import "./shared/container";
 
-import "./database";
+import "./modules/infra/typeorm";
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
 
