@@ -1,6 +1,6 @@
 import { getRepository, Repository } from "typeorm";
 
-import { User } from "../../../modules/infra/typeorm/entities/User";
+import { User } from "../../../infra/typeorm/entities/User";
 import { ICreateUserDTO } from "../../dtos/ICreateUserDTO";
 import { IUsersRepository } from "../IUsersRepository";
 
