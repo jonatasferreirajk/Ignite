@@ -4,9 +4,12 @@ import "express-async-errors";
 import swaggerUi from "swagger-ui-express";
 
 import { AppError } from "@errors/AppError";
+import createConnection from "@modules/infra/typeorm";
 
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
+
+createConnection();
 
 const app = express();
 
